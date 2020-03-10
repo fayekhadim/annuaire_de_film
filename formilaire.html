@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+<head>
+    <meta charset="UTF-8">
+   
+
+    <!-- Title Page-->
+    <title>Plateforme film</title>
+
+    
+  
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-1">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">ESPACE ADMINSTRATEUR</h2>
+                    <form method="POST" action="pt_1.php" enctype="multipart/form-data">
+                        <div class="input-group">
+                            <input class="input--style-1" type="text" placeholder="Titre" name="titre">
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <input class="input--style-1" type="text" placeholder="Année" name="annee">
+                                    
+                                    
+                                </div>
+                                <input class="input--style-1" type="text" placeholder="Description" name="description">
+                                <hr><br>
+                                <input class="input--style-1" type="text" placeholder="Realisateur" name="realisateur">
+                                <hr><br>
+                                <input class="input--style-1" type="text" placeholder="Genre" name="genre">
+                                <hr><br><br>
+                                <input type="file" name="miniature" value="choisir un fichier"><br><br>
+                                <input type="submit" name="ajout" value="OK" id="ok">
+                               
+                            </div>
+                           
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
